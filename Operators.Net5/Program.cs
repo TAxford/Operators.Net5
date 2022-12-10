@@ -14,6 +14,10 @@ namespace Operators.Net5
             //unary operators
             num3 = -num1;
             Console.WriteLine("num3 is {0}", num3);
+
+            bool isSunny = true;
+            Console.WriteLine("is it sunny? {0}", !isSunny);
+
             Console.Read();
 
 
