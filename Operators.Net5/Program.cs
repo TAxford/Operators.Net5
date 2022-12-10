@@ -24,7 +24,14 @@ namespace Operators.Net5
             num++;
             Console.WriteLine("num3 is {0}", num);
             Console.WriteLine("num3 is {0}", num++);
+            Console.WriteLine("num3 is {0}", ++num);
+
+            //decrement operators
+            int num = 0;
+            num--;
             Console.WriteLine("num3 is {0}", num);
+            Console.WriteLine("num3 is {0}", num--);
+            Console.WriteLine("num3 is {0}", --num);
 
 
             Console.Read();
