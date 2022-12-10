@@ -18,6 +18,15 @@ namespace Operators.Net5
             bool isSunny = true;
             Console.WriteLine("is it sunny? {0}", !isSunny);
 
+
+            //increment operators
+            int num = 0;
+            num++;
+            Console.WriteLine("num3 is {0}", num);
+            Console.WriteLine("num3 is {0}", num++);
+            Console.WriteLine("num3 is {0}", num);
+
+
             Console.Read();
 
 
