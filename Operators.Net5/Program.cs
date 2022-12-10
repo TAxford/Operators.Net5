@@ -27,11 +27,31 @@ namespace Operators.Net5
             Console.WriteLine("num3 is {0}", ++num);
 
             //decrement operators
-            int num = 0;
             num--;
             Console.WriteLine("num3 is {0}", num);
             Console.WriteLine("num3 is {0}", num--);
             Console.WriteLine("num3 is {0}", --num);
+
+
+            int result;
+
+            result = num1 + num2;
+            Console.WriteLine("result of num1 + num2 is {0}", result);
+            result = num1 - num2;
+            Console.WriteLine("result of num1 - num2 is {0}", result);
+            result = num1 / num2;
+            Console.WriteLine("result of num1 / num2 is {0}", result);
+            result = num1 * num2;
+            Console.WriteLine("result of num1 * num2 is {0}", result);
+            //module operator
+            result = num1 % num2;
+            Console.WriteLine("result of num1 % num2 is {0}", result);
+
+            //relational and type operators
+            bool isLower;
+            isLower = num1 > num2;
+            Console.WriteLine("result of num1 > num2 is {0}", isLower);
+
 
 
             Console.Read();
