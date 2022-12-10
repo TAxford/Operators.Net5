@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace Operators.Net5
 {
@@ -59,6 +60,12 @@ namespace Operators.Net5
 
             isEqual = num1 != num2;
             Console.WriteLine("result of num1 != num2 is {0}", isEqual);
+
+
+            //conditional operators
+            bool isLowerAndSunny;
+            isLowerAndSunny = isLower && isSunny;
+            Console.WriteLine("result of isLower && isSunny is {0}", isLowerAndSunny);
 
             Console.Read();
 
