@@ -52,7 +52,13 @@ namespace Operators.Net5
             isLower = num1 > num2;
             Console.WriteLine("result of num1 > num2 is {0}", isLower);
 
+            //equality operator
+            bool isEqual;
+            isEqual = num1 == num2;
+            Console.WriteLine("result of num1 == num2 is {0}", isEqual);
 
+            isEqual = num1 != num2;
+            Console.WriteLine("result of num1 != num2 is {0}", isEqual);
 
             Console.Read();
 
