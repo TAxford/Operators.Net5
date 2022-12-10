@@ -12,7 +12,9 @@ namespace Operators.Net5
 
 
             //unary operators
-
+            num3 = -num1;
+            Console.WriteLine("num3 is {0}", num3);
+            Console.Read();
 
 
 
